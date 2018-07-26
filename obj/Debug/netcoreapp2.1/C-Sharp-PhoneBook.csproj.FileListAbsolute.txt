@@ -1,0 +1,11 @@
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/bin/Debug/netcoreapp2.1/C-Sharp-PhoneBook.deps.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/bin/Debug/netcoreapp2.1/C-Sharp-PhoneBook.runtimeconfig.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/bin/Debug/netcoreapp2.1/C-Sharp-PhoneBook.runtimeconfig.dev.json
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/bin/Debug/netcoreapp2.1/C-Sharp-PhoneBook.dll
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/bin/Debug/netcoreapp2.1/C-Sharp-PhoneBook.pdb
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.csprojAssemblyReference.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.csproj.CoreCompileInputs.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.AssemblyInfoInputs.cache
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.AssemblyInfo.cs
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.dll
+/Users/carolynn/dev/C-Sharp/C-Sharp-PhoneBook/obj/Debug/netcoreapp2.1/C-Sharp-PhoneBook.pdb
