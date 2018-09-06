@@ -5,13 +5,13 @@ using System.Text;
 namespace C_Sharp_PhoneBook{
 
 
-    public class PhoneBook{
-
+    public class SimplePhoneBook{
+        
         public SortedDictionary<string, List<string>> book {get; set;}
 
-        public PhoneBook()=> book = new SortedDictionary<string, List<string>>();
+        public SimplePhoneBook()=> book = new SortedDictionary<string, List<string>>();
 
-        public PhoneBook(SortedDictionary<string, List<string>> book1) => book = book1;
+        public SimplePhoneBook(SortedDictionary<string, List<string>> book1) => book = book1;
 
         public void addEntry(string name, List<String> numbers){
             if(!book.ContainsKey(name)) book.Add(name,numbers);
