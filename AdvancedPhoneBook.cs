@@ -52,13 +52,6 @@ namespace C_Sharp_PhoneBook{
                 }
             }
             personList[x].phoneNumbers.Remove(phoneNumber);
-            // foreach(Person p in personList){
-            //     foreach(string pNumber in p.phoneNumbers){
-            //         if(pNumber.Equals(phoneNumber)){
-            //             p.phoneNumbers.Remove(phoneNumber);
-            //         }
-            //     }
-            // }
         }
         public void changeAddress(Person person, string address1){
             foreach(Person p in personList){
@@ -86,7 +79,6 @@ namespace C_Sharp_PhoneBook{
             return p1.fullName;
         }
 
-
         public List<Person> getAllResidentsAtAddress(string address){
             List<Person> residents = new List<Person>();
             foreach(Person p in personList){
@@ -105,6 +97,15 @@ namespace C_Sharp_PhoneBook{
             return String.Join(", ",names);
         }
 
-    
+        public string getAddressByName(Person person){
+            string x = "";
+            foreach(Person p in personList){
+                if(p.fullName.Equals(person.fullName)){
+                    x = p.address;
+                }
+            }
+            return x;
+        }
+
     }
 }

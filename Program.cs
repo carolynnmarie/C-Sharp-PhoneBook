@@ -20,7 +20,7 @@ namespace C_Sharp_PhoneBook
             Person carolynn = new Person ("Carolynn","Vansant",numbers2,"212 S Willow St");
             book.addPerson(joe);
             book.addPerson(carolynn);
- //           book.removeNumberFromEntry(carolynn,"(555)555-5555");
+            book.removeNumberFromEntry(carolynn,"(555)555-5555");
             Console.WriteLine(book.lookupPhoneNumbersByName("Carolynn Vansant"));
  //           phonebook.addEntry("Joe", numbers2);
             // phonebook.addEntry("Carolynn", numbers1);
