@@ -43,13 +43,22 @@ namespace C_Sharp_PhoneBook{
             }
         }
         public void removeNumberFromEntry(Person person, string phoneNumber){
-            foreach(Person p in personList){
-                foreach(string pNumber in p.phoneNumbers){
+            int x = 0;
+            for(int i = 0; i<personList.Count; i++){
+                foreach(string pNumber in personList[i].phoneNumbers){
                     if(pNumber.Equals(phoneNumber)){
-                        p.phoneNumbers.Remove(phoneNumber);
+                        x = i;
                     }
                 }
             }
+            personList[x].phoneNumbers.Remove(phoneNumber);
+            // foreach(Person p in personList){
+            //     foreach(string pNumber in p.phoneNumbers){
+            //         if(pNumber.Equals(phoneNumber)){
+            //             p.phoneNumbers.Remove(phoneNumber);
+            //         }
+            //     }
+            // }
         }
         public void changeAddress(Person person, string address1){
             foreach(Person p in personList){
@@ -86,6 +95,14 @@ namespace C_Sharp_PhoneBook{
                 }
             }
             return residents;
+        }
+
+        public string getAllNames(){
+            List<string> names = new List<string>();
+            foreach(Person p in personList){
+                names.Add(p.fullName);
+            }
+            return String.Join(", ",names);
         }
 
     
