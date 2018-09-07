@@ -25,5 +25,9 @@ namespace C_Sharp_PhoneBook{
             this.address = address;
         }
 
+        public string toString(){
+            return String.Format("{0}: address: {1}, phone numbers: {2}\n",fullName,address,String.Join(",",phoneNumbers));
+        }
+
     }
 }

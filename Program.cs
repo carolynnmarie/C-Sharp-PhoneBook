@@ -18,8 +18,8 @@ namespace C_Sharp_PhoneBook
             numbers2.Add("(555)555-5555");
             Person joe = new Person("Joe","Smith",numbers1,"123 Spring Lane");
             Person carolynn = new Person ("Carolynn","Vansant",numbers2,"212 S Willow St");
-            book.addPerson(joe);
-            book.addPerson(carolynn);
+            book.addEntry(joe);
+            book.addEntry(carolynn);
             book.removeNumberFromEntry(carolynn,"(555)555-5555");
             Console.WriteLine(book.lookupPhoneNumbersByName("Carolynn Vansant"));
  //           phonebook.addEntry("Joe", numbers2);
